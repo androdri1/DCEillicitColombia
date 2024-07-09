@@ -10,9 +10,11 @@ Emmanuel Guindon, McMaster University, emmanuel.guindon@mcmaster.ca
 Juan Pablo Martínez, Universidad del Rosario, juanpablo.martinez@urosario.edu.co 
 Guillermo Paraje, Universidad Adolfo Ibañez, guillermo.paraje@uai.cl 
 
+Data needed for replication and LimeSurvey questionnaire are available at: https://doi.org/10.34848/DLYZZU
+
 ## Main Programs
 ### Data process
-1_data_process.do transforms the raw data to a format that can be used for descriptives statistics and running the regressions, as well as the value of information (VOI) computations. Prices in COP are transformed to USD using a fixed exchange rate of 3.800COP per USD. 
+1_data_process.do transforms the raw data to a format that can be used for descriptive statistics and running the regressions, as well as the value of information (VOI) computations. Prices in COP are transformed to USD using a fixed exchange rate of 3.800COP per USD. 
 ### Descriptive statistics
 Descriptive statistics of the covariates at the respondent’s ages and blocks are built, which correspond to Tables 2 of the main paper and Tables 1 through 3 of Appendix A. 2_descriptives_tables.do generates these tables before minor editing. 
 ### Results – Multinomial logit
