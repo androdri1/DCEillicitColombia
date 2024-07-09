@@ -1,6 +1,6 @@
 # Replication kit for: Rodríguez-Lesmes, P., Góngora, P., Mentzakis, E., Buckley, N., Gallego, J. M., Guindon, E., Martinez, J. P. Paraje, G. (2024). Would Plain Packaging and Health Warning Labels Reduce Smoking in the Presence of Informal Markets? A Choice Experiment in Colombia. Social Science & Medicine, 117069
 
-This repo includes the code required to replicate the results in this paper. The data needed is available at: https://doi.org/10.34848/DLYZZU . Such data repository also includes the LimeSurvey questionnaire editable to facilitate reproducibility.
+This repo includes the code required to replicate the results in this paper. The data needed is available at: [https://doi.org/10.34848/DLYZZU](https://doi.org/10.34848/NQ9HWX) . Such data repository also includes the LimeSurvey questionnaire editable to facilitate reproducibility.
 
 Any questions, please contact:
 Paul Rodríguez-Lesmes, Universidad del Rosario, paul.rodriguez@urosario.edu.co - General questions and Limesurvey
