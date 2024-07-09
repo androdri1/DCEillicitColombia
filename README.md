@@ -1,16 +1,12 @@
-# DCEillicitColombia
+# Replication kit for: Rodríguez-Lesmes, P., Góngora, P., Mentzakis, E., Buckley, N., Gallego, J. M., Guindon, E., Martinez, J. P. Paraje, G. (2024). Would Plain Packaging and Health Warning Labels Reduce Smoking in the Presence of Informal Markets? A Choice Experiment in Colombia. Social Science & Medicine, 117069
 
-Would plain packaging and health warning labels reduce smoking in the presence of informal markets? A Choice Experiment in Colombia READ-ME file for code submitted with the manuscript
-Paul Rodríguez-Lesmes, Universidad del Rosario, paul.rodriguez@urosario.edu.co 
-Pamela Góngora, Oxford University, pamela.gongora@dph.ox.ac.uk 
-Emmanouil Mentzakis, City, University of London, emmanouil.mentzakis@city.ac.uk 
-Neil Buckley, York University, nbuckley@yorku.ca
-Juan Miguel Gallego, Universidad del Rosario, juan.gallego@urosario.edu.co 
-Emmanuel Guindon, McMaster University, emmanuel.guindon@mcmaster.ca 
-Juan Pablo Martínez, Universidad del Rosario, juanpablo.martinez@urosario.edu.co 
-Guillermo Paraje, Universidad Adolfo Ibañez, guillermo.paraje@uai.cl 
+This repo includes the code required to replicate the results in this paper. The data needed is available at: https://doi.org/10.34848/DLYZZU . Such data repository also includes the LimeSurvey questionnaire editable to facilitate reproducibility.
 
-Data needed for replication and LimeSurvey questionnaire are available at: https://doi.org/10.34848/DLYZZU
+Any questions, please contact:
+Paul Rodríguez-Lesmes, Universidad del Rosario, paul.rodriguez@urosario.edu.co - General questions and Limesurvey
+Emmanouil Mentzakis, City, University of London, emmanouil.mentzakis@city.ac.uk  - DCE Design 
+Juan Pablo Martínez, Universidad del Rosario, juanpablo.martinez@urosario.edu.co - Code (Stata and Mathematica)
+
 
 ## Main Programs
 ### Data process
@@ -32,7 +28,7 @@ Main results robustness checks are checked depending on the time spent respondin
 
 ## Appendix B Programs
 ### VOI data set up
-Value of information calculations rely upon the computation of a price different to the one respondents face, so the data base for finding this variable is generated in B_1_voi_data_process.do. The last price consumers paid when smoking is assigned in case respondents had a WTP equal to zero. 
+Value of information calculations rely upon the computation of a price different to the one respondents face, so the database for finding this variable is generated in B_1_voi_data_process.do. The last price consumers paid when smoking is assigned in case respondents had a WTP equal to zero. 
 ### P^'calculations
 B_2_p_p_function.nb is a wolfram mathematica notebook that executes the program for finding the specific price for each respondent. Its inputs correspond to the data file generated in the previous step. Given the necessity of having the specific program, the data is already provided in the raw_data folder.
 ### VOI calculations
